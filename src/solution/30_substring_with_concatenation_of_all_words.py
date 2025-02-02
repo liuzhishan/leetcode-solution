@@ -2,6 +2,7 @@
 
 from typing import List
 
+
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         """思考子问题的结构。

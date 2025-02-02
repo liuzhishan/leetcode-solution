@@ -4,13 +4,22 @@ import logging
 from typing import Optional, List
 
 
-logging.basicConfig(level=logging.INFO, format="[%(filename)s:%(lineno)s - %(funcName)s] - %(message)s")
+LOG_FORMAT = "%(asctime)s - %(levelname)s [%(filename)s:%(lineno)s - %(funcName)s] - %(message)s"
+logging.basicConfig(level=logging.INFO, format=LOG_FORMAT)
+logger = logging.getLogger(__name__)
 
 
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
+
+
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 
 
 def nested_list_to_nodes(lists: List[List[int]]) -> List[ListNode]:
