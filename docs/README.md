@@ -30,7 +30,7 @@
 我们用斐波那契数列的递归实现来介绍一下循环不变式。
 
 ```python
-def fib(n):
+def fib(n: int) -> int:
     if n <= 1:
         return n
 
