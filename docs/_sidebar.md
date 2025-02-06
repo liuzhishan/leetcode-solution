@@ -10,3 +10,5 @@
   - [8. 字符串转换整数 (atoi)](solution/08_string_to_integer_atoi.md)
   - [9. 回文数](solution/09_palindrome_number.md)
   - [10. 正则表达式匹配](solution/10_regular_expression_matching.md)
+  - [28. 找出字符串中第一个匹配项的下标](solution/28_find_the_index_of_the_first_occurrence_in_a_string.md)
+  - [84. 柱状图中最大的矩形](solution/84_largest_rectangle_in_histogram.md)
