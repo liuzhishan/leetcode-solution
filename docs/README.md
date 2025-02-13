@@ -78,27 +78,6 @@ def fib(n: int) -> int:
 
 下面结合几个具体的题目，来介绍一下如何应用这一思路来解决问题。
 
-### 3. 无重复字符的最长子串
-
-题目链接: [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
-
-
-
-### 28. 找出字符串中第一个匹配项的下标
-
-题目链接: [28. 找出字符串中第一个匹配项的下标](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)
-
-
-### 84. 柱状图中最大的矩形
-
-
-题目链接: [84. 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/description/)
-
-
-
-
-
-
-
-
-
+- 示例: [3. 无重复字符的最长子串](solution/03_longest_substring_without_repeating_characters.md)
+- 示例: [28. 找出字符串中第一个匹配项的下标](solution/28_find_the_index_of_the_first_occurrence_in_a_string.md)
+- 示例: [84. 柱状图中最大的矩形](solution/84_largest_rectangle_in_histogram.md)
